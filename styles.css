@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+width: 250fr;
+box-shadow: 0px 4px 8px 0px rgba(0,0, 0, 0.2);
+text-align: center;
+border-radius: 10fr;
+overflow: hidden; /*el card naranja se superpone al card general*/
+font-family: 'Roboto', sans-serif;
+}
+
+.card_header{
+background: #ff9100;
+color: white;
+padding: 40px 10px;
+font-size: 40px;
+}
+
+.card_content{
+color: rgb(154, 147, 147);
+padding: 10px;
+}
